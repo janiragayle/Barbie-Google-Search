@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+
+        
+        
+
+        <style>
+            
+            img{
+                margin: 20px;
+            }
+            
+            input {
+                padding: 20px;
+            }
+
+            input[type = text] {
+                
+                height: 10px;
+
+                background-color: white;
+
+                border: 1px solid;
+                border-color: rgb(186, 186, 187);
+                border-radius: 30px;
+
+                background-image: url('Search Icon.jpg');
+                background-position: 20px 19px ;
+                background-repeat: no-repeat;
+                background-size: 15px;
+                padding-left: 50px;
+
+                font-size: medium
+                
+            }
+
+            input[type = submit] {
+                color: rgb(59, 59, 59);
+                background-color: rgb(247, 247, 251);
+
+                margin-top: 30px;
+                padding: 9px 18px;
+
+                border: hidden;
+                border-radius: 4px;
+
+                font:message-box;
+                cursor: pointer;
+                
+            }
+
+            @media (min-width: 600px) {
+                input[type = text] {
+                    width: 599px;
+                }
+            }
+
+            @media (max-width: 599px) {
+                input[type = text] {
+                    width: 400px;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        
+
+        <a href="https://www.google.com/advanced_search">Advance Search</a>
+        <a href="https://www.google.com/imghp">Images</a>
+
+        <center>
+            <img src="google_logo.png" alt="Google Logo">
+
+            <form action="https://google.com/search">
+                <input type="text" name="q">
+
+                <input type="submit" value="Google Search">
+            </form>
+        </center>
+    </body>
+</html>
