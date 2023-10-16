@@ -5,5 +5,4 @@ To help myself learn HTML and CSS I re-implemented a front-end for Google's sear
 to a re-implementation of Google's advanced search page and image search page. 
 
 To view go to:
-https://htmlpreview.github.io/? 
-and paste https://github.com/janiragayle/Google-Homepage/blob/main/index.html into searchbar 
+https://htmlpreview.github.io/?https://github.com/janiragayle/Google-Homepage/blob/main/index.html 
